@@ -1,0 +1,89 @@
+[
+    {
+        "id": "auto-001",
+        "title": "Excel to Tekla Automation",
+        "description": "Automated tool that reads structural member data from Excel spreadsheets and creates Tekla Structures models with proper profiles, materials, and positioning.",
+        "workflow": [
+            "Excel Input",
+            "Data Parsing",
+            "API Processing",
+            "Tekla Model"
+        ],
+        "inputOutput": {
+            "input": "Excel spreadsheet with member schedules, coordinates, and profile sizes",
+            "output": "Complete Tekla model with beams, columns, and bracing positioned accurately"
+        },
+        "timeSaved": "80% reduction in manual modeling time",
+        "tools": [
+            "Python",
+            "Tekla Open API",
+            "Excel"
+        ],
+        "image": "/images/automations/excel-tekla.jpg"
+    },
+    {
+        "id": "auto-002",
+        "title": "AutoCAD Drawing Generator",
+        "description": "Script that auto-generates standardized AutoCAD detail drawings from Tekla model data including dimensions, annotations, and title blocks.",
+        "workflow": [
+            "Tekla Model",
+            "Data Export",
+            "DXF Generation",
+            "AutoCAD Output"
+        ],
+        "inputOutput": {
+            "input": "Tekla Structures model with connection details",
+            "output": "Ready-to-print AutoCAD detail drawings with dimensions"
+        },
+        "timeSaved": "60% faster drawing production",
+        "tools": [
+            "C#",
+            "Tekla Open API",
+            "AutoCAD API"
+        ],
+        "image": "/images/automations/autocad-gen.jpg"
+    },
+    {
+        "id": "auto-003",
+        "title": "Bolt Dimension Automation",
+        "description": "Automated bolt pattern calculator and dimensioner that applies standardized bolt spacing, edge distances, and creates bolt schedule reports.",
+        "workflow": [
+            "Connection Input",
+            "Code Check",
+            "Bolt Layout",
+            "Report Output"
+        ],
+        "inputOutput": {
+            "input": "Connection geometry and load requirements",
+            "output": "Optimized bolt pattern with edge distances and schedule"
+        },
+        "timeSaved": "70% reduction in connection detailing time",
+        "tools": [
+            "Python",
+            "Excel Automation"
+        ],
+        "image": "/images/automations/bolt-auto.jpg"
+    },
+    {
+        "id": "auto-004",
+        "title": "Report Generation Scripts",
+        "description": "Automated reporting system that extracts model data from Tekla and generates formatted reports including material takeoff, bolt lists, and weld summaries.",
+        "workflow": [
+            "Tekla Model",
+            "Data Extraction",
+            "Template Fill",
+            "PDF Report"
+        ],
+        "inputOutput": {
+            "input": "Tekla model with complete detailing",
+            "output": "Formatted PDF reports with BOQ, material lists, and bolt schedules"
+        },
+        "timeSaved": "90% reduction in report preparation time",
+        "tools": [
+            "Python",
+            "Tekla Open API",
+            "ReportLab"
+        ],
+        "image": "/images/automations/report-gen.jpg"
+    }
+]

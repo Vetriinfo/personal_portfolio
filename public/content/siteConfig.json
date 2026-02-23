@@ -1,0 +1,46 @@
+{
+    "profile": {
+        "name": "Your Name",
+        "title": "Tekla Modeler | Steel Detailer | Automation Developer",
+        "tagline": "Crafting intelligent steel models, precision connections, and automated workflows that transform structural engineering from blueprint to reality.",
+        "photo": "/images/profile.jpg"
+    },
+    "hero": {
+        "backgroundImage": "/images/hero-bg.jpg"
+    },
+    "about": {
+        "heading": "About Me",
+        "description": "A passionate Tekla Structures professional with extensive experience in steel modeling, connection detailing, and structural automation. I specialize in transforming complex engineering challenges into precise, efficient digital solutions.",
+        "highlights": [
+            {
+                "icon": "cube",
+                "title": "Tekla Modeling Expert",
+                "description": "Years of experience in PEB, industrial, and commercial steel structure modeling with Tekla Structures."
+            },
+            {
+                "icon": "link",
+                "title": "Connection Detailing",
+                "description": "Specialized in designing and detailing base plates, end plates, moment connections, and more."
+            },
+            {
+                "icon": "code",
+                "title": "Automation Developer",
+                "description": "Building custom tools and scripts using Python, C#, and Tekla Open API to automate repetitive tasks."
+            },
+            {
+                "icon": "industry",
+                "title": "Industrial Projects",
+                "description": "Hands-on exposure to large-scale industrial projects including pipe racks, platforms, and heavy structures."
+            }
+        ]
+    },
+    "contact": {
+        "email": "your.email@example.com",
+        "linkedin": "https://linkedin.com/in/your-profile",
+        "whatsapp": "+1234567890",
+        "formAction": "https://formspree.io/f/your-form-id"
+    },
+    "resume": {
+        "pdfPath": "/resume.pdf"
+    }
+}

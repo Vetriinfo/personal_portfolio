@@ -1,0 +1,57 @@
+[
+    {
+        "id": "conn-001",
+        "type": "Base Plate Connection",
+        "description": "Standard and heavy-duty base plate connections with anchor bolt patterns, stiffener plates, and grout details.",
+        "images": [
+            "/images/connections/baseplate-1.jpg",
+            "/images/connections/baseplate-2.jpg"
+        ],
+        "boltDetails": "M24 anchor bolts, Grade 8.8, 4-bolt and 8-bolt patterns",
+        "standards": "AISC 360, IS 800"
+    },
+    {
+        "id": "conn-002",
+        "type": "End Plate Connection",
+        "description": "Flush and extended end plate moment connections for beam-to-column joints with full bolt detailing.",
+        "images": [
+            "/images/connections/endplate-1.jpg",
+            "/images/connections/endplate-2.jpg"
+        ],
+        "boltDetails": "M20 HSFG bolts, Grade 10.9, 6-bolt extended end plate",
+        "standards": "AISC 358, Eurocode 3"
+    },
+    {
+        "id": "conn-003",
+        "type": "Cleat Connection",
+        "description": "Double angle web cleat connections for simple beam-to-beam and beam-to-column shear connections.",
+        "images": [
+            "/images/connections/cleat-1.jpg",
+            "/images/connections/cleat-2.jpg"
+        ],
+        "boltDetails": "M16 bolts, Grade 8.8, standard holes",
+        "standards": "AISC 360, BS EN 1993"
+    },
+    {
+        "id": "conn-004",
+        "type": "Seated Connection",
+        "description": "Unstiffened and stiffened seated connections for beam support with bearing calculations and weld detailing.",
+        "images": [
+            "/images/connections/seated-1.jpg",
+            "/images/connections/seated-2.jpg"
+        ],
+        "boltDetails": "M20 bolts, Grade 8.8 with stiffener plates",
+        "standards": "AISC 360"
+    },
+    {
+        "id": "conn-005",
+        "type": "Moment Connection",
+        "description": "Fully welded and bolted moment connections for rigid frame joints with complete CJP weld specifications.",
+        "images": [
+            "/images/connections/moment-1.jpg",
+            "/images/connections/moment-2.jpg"
+        ],
+        "boltDetails": "M24 HSFG bolts, CJP welds to flanges",
+        "standards": "AISC 358, AWS D1.1"
+    }
+]

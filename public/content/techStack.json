@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Tekla Structures",
+        "icon": "tekla",
+        "proficiency": 95
+    },
+    {
+        "name": "AutoCAD",
+        "icon": "autocad",
+        "proficiency": 90
+    },
+    {
+        "name": "Python",
+        "icon": "python",
+        "proficiency": 85
+    },
+    {
+        "name": "C#",
+        "icon": "csharp",
+        "proficiency": 80
+    },
+    {
+        "name": "Tekla Open API",
+        "icon": "api",
+        "proficiency": 85
+    },
+    {
+        "name": "Excel Automation",
+        "icon": "excel",
+        "proficiency": 90
+    }
+]

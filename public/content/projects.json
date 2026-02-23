@@ -1,0 +1,93 @@
+[
+    {
+        "id": "proj-001",
+        "title": "Industrial Warehouse Complex",
+        "category": "Industrial",
+        "description": "Complete Tekla modeling for a 5,000 sq.m industrial warehouse featuring heavy crane beams, mezzanine floors, and complex bracing systems. Delivered full GA drawings and shop detail drawings.",
+        "images": [
+            "/images/projects/industrial-1.jpg",
+            "/images/projects/industrial-1b.jpg"
+        ],
+        "software": [
+            "Tekla Structures",
+            "AutoCAD"
+        ],
+        "details": "Multi-span portal frames with 20T crane capacity. Included secondary members, purlins, girts, and complete connection detailing."
+    },
+    {
+        "id": "proj-002",
+        "title": "PEB Factory Building",
+        "category": "PEB",
+        "description": "Pre-Engineered Building model for a manufacturing facility with clear span design, canopy extensions, and optimized member sizing for cost-effective fabrication.",
+        "images": [
+            "/images/projects/peb-1.jpg",
+            "/images/projects/peb-1b.jpg"
+        ],
+        "software": [
+            "Tekla Structures",
+            "Excel"
+        ],
+        "details": "Clear span of 40m with tapered members. Custom macro used for purlin spacing optimization."
+    },
+    {
+        "id": "proj-003",
+        "title": "Commercial Office Tower Steel",
+        "category": "Commercial",
+        "description": "Structural steel modeling for a 12-story commercial building including composite deck connections, moment frames, and seismic bracing.",
+        "images": [
+            "/images/projects/commercial-1.jpg",
+            "/images/projects/commercial-1b.jpg"
+        ],
+        "software": [
+            "Tekla Structures",
+            "ETABS",
+            "AutoCAD"
+        ],
+        "details": "Complex multi-level framing with over 2,000 unique parts. Fully detailed shop and erection drawings with bolt schedules."
+    },
+    {
+        "id": "proj-004",
+        "title": "Pipe Rack & Access Platforms",
+        "category": "Pipe Racks",
+        "description": "Modeling of an extensive pipe rack system for a petrochemical facility including pipe supports, access platforms, ladders, and handrails.",
+        "images": [
+            "/images/projects/piperack-1.jpg",
+            "/images/projects/piperack-1b.jpg"
+        ],
+        "software": [
+            "Tekla Structures",
+            "Navisworks"
+        ],
+        "details": "Over 150 linear meters of pipe support structure with variable height bents and transverse frames. Clash detection with piping models."
+    },
+    {
+        "id": "proj-005",
+        "title": "PEB Warehouse with Mezzanine",
+        "category": "PEB",
+        "description": "Pre-engineered building with integrated mezzanine for a logistics hub featuring loading dock steel structures and canopy framing.",
+        "images": [
+            "/images/projects/peb-2.jpg",
+            "/images/projects/peb-2b.jpg"
+        ],
+        "software": [
+            "Tekla Structures"
+        ],
+        "details": "60m x 30m footprint with 10m eave height. Internal mezzanine designed for 5 kN/m² live load."
+    },
+    {
+        "id": "proj-006",
+        "title": "Heavy Industrial Plant Structure",
+        "category": "Industrial",
+        "description": "Complex industrial plant structure with equipment platforms, conveyor supports, and heavy bracing for dynamic loading conditions.",
+        "images": [
+            "/images/projects/industrial-2.jpg",
+            "/images/projects/industrial-2b.jpg"
+        ],
+        "software": [
+            "Tekla Structures",
+            "STAAD.Pro",
+            "AutoCAD"
+        ],
+        "details": "Multi-level equipment support structure with vibration isolation detailing and hot-dip galvanized connections."
+    }
+]
