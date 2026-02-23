@@ -24,30 +24,31 @@ export default function TechStack({ techStack }) {
             <div className="container">
                 <SectionHeader
                     title="Software & Tech Stack"
-                    subtitle="Tools and technologies I work with every day"
+                    subtitle="Advanced technical capabilities powering industrial ingenuity"
                 />
 
                 <ScrollReveal>
-                    <div className="grid-4" style={{ maxWidth: '800px', margin: '0 auto' }}>
+                    <div className="grid-4" style={{ maxWidth: '900px', margin: '0 auto' }}>
                         {techStack.map((tech, i) => {
                             const IconComp = iconMap[tech.icon] || FaCogs;
                             return (
-                                <div key={i} className="tech-icon-card">
-                                    <IconComp className="tech-icon" />
-                                    <span className="tech-icon-name">{tech.name}</span>
+                                <div key={i} className="tech-icon-card" style={{ background: 'var(--color-dark-alt)', border: '1px solid rgba(212, 175, 55, 0.1)' }}>
+                                    <IconComp style={{ color: 'var(--color-bronze)', fontSize: '2.8rem' }} />
+                                    <span className="tech-icon-name" style={{ color: 'var(--color-gold-light)', fontWeight: 600 }}>{tech.name}</span>
                                     <div style={{
                                         width: '100%',
-                                        height: '4px',
-                                        backgroundColor: 'var(--color-dark)',
-                                        borderRadius: '2px',
+                                        height: '6px',
+                                        backgroundColor: 'rgba(0,0,0,0.3)',
+                                        borderRadius: '50px',
                                         overflow: 'hidden',
+                                        marginTop: '8px'
                                     }}>
                                         <div style={{
                                             width: `${tech.proficiency}%`,
                                             height: '100%',
-                                            background: 'linear-gradient(90deg, var(--color-rust-dark), var(--color-rust-light))',
-                                            borderRadius: '2px',
-                                            transition: 'width 1s ease',
+                                            background: 'linear-gradient(90deg, var(--color-bronze-dark), var(--color-gold))',
+                                            borderRadius: '50px',
+                                            transition: 'width 1.5s cubic-bezier(0.4, 0, 0.2, 1)',
                                         }} />
                                     </div>
                                 </div>
@@ -59,3 +60,4 @@ export default function TechStack({ techStack }) {
         </section>
     );
 }
+

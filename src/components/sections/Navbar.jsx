@@ -30,14 +30,14 @@ export default function Navbar() {
     return (
         <>
             <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-                <a href="#" className="nav-brand" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-                    ⚙ PORTFOLIO
+                <a href="#" className="nav-brand" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} style={{ color: 'var(--color-gold)', letterSpacing: '4px' }}>
+                    TEKLA PORTFOLIO
                 </a>
 
                 <ul className="nav-links">
                     {navItems.map((item) => (
                         <li key={item.href}>
-                            <button className="nav-link" onClick={() => scrollTo(item.href)}>
+                            <button className="nav-link" onClick={() => scrollTo(item.href)} style={{ color: 'var(--color-cream-dark)', fontWeight: 600 }}>
                                 {item.label}
                             </button>
                         </li>
@@ -48,12 +48,14 @@ export default function Navbar() {
                     className={`hamburger ${mobileOpen ? 'open' : ''}`}
                     onClick={() => setMobileOpen(!mobileOpen)}
                     aria-label="Toggle menu"
+                    style={{ color: 'var(--color-gold)' }}
                 >
                     <span></span>
                     <span></span>
                     <span></span>
                 </button>
             </nav>
+
 
             <AnimatePresence>
                 {mobileOpen && (

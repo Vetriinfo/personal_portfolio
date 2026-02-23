@@ -68,19 +68,20 @@ export default function Hero({ data }) {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1.1 }}
                 >
-                    <button className="btn btn-primary" onClick={() => scrollTo('#portfolio')}>
+                    <button className="btn btn-glass-gold" onClick={() => scrollTo('#portfolio')}>
                         <FaEye /> View Projects
                     </button>
-                    <button className="btn btn-outline" onClick={() => scrollTo('#automation')}>
+                    <button className="btn btn-glass" onClick={() => scrollTo('#automation')}>
                         <FaRobot /> Automation Tools
                     </button>
-                    <a href={data.resume?.pdfPath || '/resume.pdf'} download className="btn btn-outline">
+                    <a href={data.resume?.pdfPath || '/resume.pdf'} download className="btn btn-glass">
                         <FaDownload /> Download Resume
                     </a>
-                    <button className="btn btn-outline" onClick={() => scrollTo('#contact')}>
+                    <button className="btn btn-glass" onClick={() => scrollTo('#contact')}>
                         <FaEnvelope /> Contact Me
                     </button>
                 </motion.div>
+
             </motion.div>
         </section>
     );

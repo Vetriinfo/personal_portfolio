@@ -1,5 +1,5 @@
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
-import WesternDivider from '../ui/WesternDivider';
+import GoldDivider from '../ui/GoldDivider';
 
 export default function Footer({ data }) {
     const year = new Date().getFullYear();
@@ -7,7 +7,8 @@ export default function Footer({ data }) {
 
     return (
         <footer className="footer">
-            <WesternDivider />
+            <GoldDivider />
+
             <p className="footer-text">
                 © {year} {name}. All Rights Reserved.
             </p>
