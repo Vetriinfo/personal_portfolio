@@ -1,6 +1,6 @@
 {
     "profile": {
-        "name": "Your Name",
+        "name": "VETRI SELVAN",
         "title": "Tekla Modeler | Steel Detailer | Automation Developer",
         "tagline": "Crafting intelligent steel models, precision connections, and automated workflows that transform structural engineering from blueprint to reality.",
         "photo": "/images/profile.jpg"
@@ -35,7 +35,7 @@
         ]
     },
     "contact": {
-        "email": "your.email@example.com",
+        "email": "vetri.structura@gmail.com",
         "linkedin": "https://linkedin.com/in/your-profile",
         "whatsapp": "+1234567890",
         "formAction": "https://formspree.io/f/your-form-id"
